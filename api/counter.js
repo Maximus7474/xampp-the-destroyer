@@ -1,9 +1,6 @@
 import { Redis } from 'ioredis';
 
-const redis = new Redis({
-    url: process.env.REDIS_URL,
-    token: process.env.REDIS_TOKEN,
-  })
+const redis = new Redis(`rediss://default:${process.env.REDIS_TOKEN}@${process.env.REDIS_URL}:${process.env.REDIS_PORT}`);
 const SECRET_TOKEN = process.env.SECRET_TOKEN;
 
 export default async function handler(req, res) {
