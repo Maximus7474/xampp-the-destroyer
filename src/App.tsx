@@ -73,7 +73,7 @@ const App: React.FC = () => {
           </a>{' '}
           made by{' '}
           <a href="https://github.com/Yorick20022" target="_blank" rel="noopener noreferrer">
-            Yorick2022
+            Yorick20022
           </a>.
         </Text>
 
