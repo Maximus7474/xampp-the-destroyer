@@ -68,7 +68,7 @@ const App: React.FC = () => {
         </Text>
         <Text size="lg" style={{ marginTop: '1rem' }}>
           Again and again, people tell server owners to stop using it, prompting even for{' '}
-          <a href="https://nextra-five-m.vercel.app/General/Xampp" target="_blank" rel="noopener noreferrer">
+          <a href="https://docs.yorick.gg/General/Xampp" target="_blank" rel="noopener noreferrer">
             this webpage
           </a>{' '}
           made by{' '}
