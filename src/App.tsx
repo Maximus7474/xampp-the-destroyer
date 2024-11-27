@@ -67,7 +67,7 @@ const App: React.FC = () => {
           XAMPP has caused significant issues for numerous FiveM servers. Despite being designed primarily for web development projects, server owners continue to rely on this tool for full-scale FiveM server management, pushing it well beyond its intended purpose. This misuse has resulted in widespread performance degradation and instability, as well as substantial data losses that could have been avoided with more robust server management solutions.
         </Text>
         <Text size="lg" style={{ marginTop: '1rem' }}>
-          Again and again, people tell server owners to stop using it, prompting even for{' '}
+          Again and again, people tell server owners to stop using it, prompting for the existence of{' '}
           <a href="https://docs.yorick.gg/General/Xampp" target="_blank" rel="noopener noreferrer">
             this webpage
           </a>{' '}
