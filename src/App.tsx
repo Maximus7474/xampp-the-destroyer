@@ -3,21 +3,21 @@ import { useState, useEffect } from 'react';
 import xampp from '../public/xampp.svg';
 
 const App: React.FC = () => {
-  const [count, setCount] = useState<number>(0);
+  // const [count, setCount] = useState<number>(0);
 
-  useEffect(() => {
-    const fetchCounter = async () => {
-      try {
-        const response = await fetch('/api/counter?action=get');
-        const data = await response.json();
-        setCount(data.count);
-      } catch (error) {
-        console.error('Error fetching counter:', error);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchCounter = async () => {
+  //     try {
+  //       const response = await fetch('/api/counter?action=get');
+  //       const data = await response.json();
+  //       setCount(data.count);
+  //     } catch (error) {
+  //       console.error('Error fetching counter:', error);
+  //     }
+  //   };
     
-    fetchCounter();
-  }, []);
+  //   fetchCounter();
+  // }, []);
 
   const redemption = () => {
     window.location.href = 'https://nextra-five-m.vercel.app/General/Xampp#getting-rid-of-xampp-forever';
@@ -86,11 +86,11 @@ const App: React.FC = () => {
           Redeem yourself
         </Button>
 
-        <Card padding="lg" shadow="sm" style={{ textAlign: 'center', paddingLeft: '4em', paddingRight: '4em' }}>
+        {/* <Card padding="lg" shadow="sm" style={{ textAlign: 'center', paddingLeft: '4em', paddingRight: '4em' }}>
           <Text size="xl" fw={600}>Current Servers Destroyed: {count}</Text>
           <Text size="md" c="gray">Since 19/11/2024</Text>
           <Text size="sm" c="darkgrey" fs="italic">to the best of our knowledge</Text>
-        </Card>
+        </Card> */}
       </Flex>
     </Container>
   );
