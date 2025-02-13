@@ -1,5 +1,5 @@
 import { Card, Container, Flex, Title, Text, Button } from '@mantine/core';
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 import xampp from '../public/xampp.svg';
 
 const App: React.FC = () => {
